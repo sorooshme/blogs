@@ -1,0 +1,18 @@
+{
+  "name": "InflightState",
+  "namespace": "site.soroosh.schema",
+  "type": "record",
+  "fields": [
+    {
+      "name": "inflightRequestId",
+      "type": "string"
+    },
+    {
+      "name": "pendingRequestIds",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    }
+  ]
+}

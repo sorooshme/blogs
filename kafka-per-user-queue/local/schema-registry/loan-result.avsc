@@ -1,0 +1,15 @@
+{
+  "name": "LoanResult",
+  "namespace": "site.soroosh.schema",
+  "type": "record",
+  "fields": [
+    {
+      "name": "requestId",
+      "type": "string"
+    },
+    {
+      "name": "result",
+      "type": "string"
+    }
+  ]
+}
